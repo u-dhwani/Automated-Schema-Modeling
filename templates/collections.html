@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Collections</title>
+    <style>
+        body {
+            background-color: rgb(185, 227, 250);
+            text-align: center; /* Center-align the content in the body */
+        }
+        h1 {
+            color: black; /* Change the heading text color to white */
+        }
+        table {
+            border: 2px solid;
+            font-size: xx-large;
+            margin: 0 auto; /* Center-align the table within its container */
+            background-color: white; /* Set the table background color to white */
+        }
+        td {
+            padding: 10px; /* Add some padding to table cells for spacing */
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Collections</h1>
+    <table>
+        {% for collection in collections %}
+            <tr>
+                <td>
+                    <a href="/collection/{{ collection }}">{{ collection }}</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+
+</body>
+</html>
