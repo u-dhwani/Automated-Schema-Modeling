@@ -1,0 +1,5 @@
+"Entity1","Entity2","RelationshipName","Card1","Card2"
+"cart","user","User'sCart","1","0"
+"cart","product","ProductsInCart","0","1"
+"order","order_item","OrderedProduct","0","1"
+"order","user","User'sOrder","0","1"
