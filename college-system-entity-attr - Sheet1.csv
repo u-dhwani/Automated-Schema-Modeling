@@ -1,0 +1,26 @@
+EntityName,AttributeName,DataType
+hostel,hostel_name,text
+hostel,no_of_seats,int
+hostel,hostel_id,text
+faculty,f_id,text
+faculty,name,text
+faculty,department,text
+faculty,salary,double
+faculty,mobile_no,long int
+subjects,subject_id,text
+subjects,subject_name,text
+exams,exam_code,text
+exams,date,date
+exams,time,time
+exams,room,text
+student,s_id,text
+student,s_name,text
+student,dob,date
+student,address,text
+student,age,decimal
+student,email,text
+course,course_id,text
+course,course_name,text
+course,duration,decimal
+department,department_id,text
+department,d_name,text

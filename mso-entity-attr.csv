@@ -1,0 +1,11 @@
+EntityName,AttributeName,DataType
+question,qid,text
+question,qtext,text
+question,timestamp,time
+question,tags,text
+answer,aid,text
+answer,atext,text
+answer,tiemstamp,time
+user,uid,text
+user,pwd,text
+user,email,text

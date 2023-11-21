@@ -1,0 +1,4 @@
+Entity1,Entity2,RelationshipName,Card1,Card2
+question,answer,have,1,8000
+user,question,posts,1,3
+user,answer,answers,1,15000

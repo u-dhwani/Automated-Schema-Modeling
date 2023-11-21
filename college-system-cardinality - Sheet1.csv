@@ -1,0 +1,8 @@
+Entity1,Entity2,RelationshipName,Card1,Card2
+faculty,subjects,takes,1,5
+hostel,student,living,1,500
+faculty,student,teaches,1,1000
+student,course,enrolls,2222,5
+faculty,department,belongs,29,1
+course,department,handles,12,1
+exams,department,conducts,25,1
